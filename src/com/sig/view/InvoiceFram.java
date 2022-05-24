@@ -538,8 +538,7 @@ public class InvoiceFram extends javax.swing.JFrame implements ActionListener {
           s.WriteFileinvoiceLines();
         n.ReadFileinvoiceHeader();
          n.WriteFileinvoiceHeader(); 
-       
-            System.out.println("headerCheckif " + headerCheck + " lineCheckif "+ lineCheck);
+
         if(headerCheck==false && lineCheck ==false){
         
        
@@ -583,10 +582,9 @@ public class InvoiceFram extends javax.swing.JFrame implements ActionListener {
         fun();
         }
         else{
-     System.out.println("headerCheckelsb " + headerCheck + " lineCheckelseb "+ lineCheck);
+    
               headerCheck =false;
               lineCheck =false;
-             System.out.println("headerCheckelse " + headerCheck + " lineCheckelse "+ lineCheck);
 
         }
        
