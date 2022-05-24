@@ -535,9 +535,9 @@ public class InvoiceFram extends javax.swing.JFrame implements ActionListener {
         invoiceLine s = new invoiceLine();
         s.setfilepath(filepathl);
         s.ReadFileinvoiceLines();
-//          s.WriteFileinvoiceLines();
+          s.WriteFileinvoiceLines();
         n.ReadFileinvoiceHeader();
-//         n.WriteFileinvoiceHeader(); 
+         n.WriteFileinvoiceHeader(); 
        
             System.out.println("headerCheckif " + headerCheck + " lineCheckif "+ lineCheck);
         if(headerCheck==false && lineCheck ==false){
