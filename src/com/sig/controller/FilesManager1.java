@@ -33,6 +33,7 @@ public  class FilesManager1 implements ActionListener ,Serializable{
             JOptionPane.showMessageDialog(parentComponent, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
               InvoiceFram farmline =  new InvoiceFram();
               farmline.settestline(true);
+                 System.out.println(" farmline.settestline " +  farmline.testline());
             
               
               
@@ -95,6 +96,8 @@ public  class FilesManager1 implements ActionListener ,Serializable{
             JOptionPane.showMessageDialog(parentComponent, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
             InvoiceFram farm =  new InvoiceFram();
               farm.settest(true);
+              
+                System.out.println("farm.test() " +  farm.test());
              
           
           
